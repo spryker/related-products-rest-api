@@ -14,7 +14,7 @@ use Spryker\Glue\Kernel\Controller\AbstractController;
 /**
  * @method \Spryker\Glue\RelatedProductsRestApi\RelatedProductsRestApiFactory getFactory()
  */
-class RelatedProductsResourceController extends AbstractController
+class RelatedProductsController extends AbstractController
 {
     /**
      * @Glue({
