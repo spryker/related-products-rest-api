@@ -15,7 +15,7 @@ use Spryker\Glue\Kernel\AbstractPlugin;
 use Spryker\Glue\ProductsRestApi\ProductsRestApiConfig;
 use Spryker\Glue\RelatedProductsRestApi\RelatedProductsRestApiConfig;
 
-class RelatedProductsRoutePlugin extends AbstractPlugin implements ResourceRoutePluginInterface, ResourceWithParentPluginInterface
+class RelatedProductsResourceRoutePlugin extends AbstractPlugin implements ResourceRoutePluginInterface, ResourceWithParentPluginInterface
 {
     /**
      * {@inheritdoc}
